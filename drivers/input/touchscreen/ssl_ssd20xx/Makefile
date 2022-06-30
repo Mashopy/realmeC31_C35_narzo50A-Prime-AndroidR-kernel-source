@@ -1,0 +1,2 @@
+obj-m += ssd20xx_ts.o
+ssd20xx_ts-y := ssd20xx_mx25v100.o ssd20xx_upgrade.o ssl_ssd20xx.o
