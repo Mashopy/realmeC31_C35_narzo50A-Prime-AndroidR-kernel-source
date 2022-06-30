@@ -82,6 +82,7 @@ config SPRD_DEBUG
 source "drivers/soc/sprd/debug/Kconfig"
 source "drivers/soc/sprd/performance/Kconfig"
 source "drivers/soc/sprd/pub/Kconfig"
+source "drivers/soc/sprd/bsp/Kconfig"
 
 menuconfig SPRD_POWER
 	tristate "Spreadtrum debug power driver"

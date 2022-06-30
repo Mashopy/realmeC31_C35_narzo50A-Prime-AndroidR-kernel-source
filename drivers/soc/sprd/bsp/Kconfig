@@ -1,0 +1,87 @@
+# Spreadtrum BSP configuration options
+
+config BSP_BUILD_ANDROID_OS
+	bool "Spreadtrum BSP build for Android devices"
+	depends on ARCH_SPRD
+	default y
+	help
+	  Enable Spreadtrum BSP build for Android devices
+
+config BSP_BUILD_DT_OVERLAY
+	bool "Spreadtrum BSP build DTO"
+	depends on BSP_BUILD_ANDROID_OS
+	default y
+	help
+	  Enable Spreadtrum BSP DTO building
+
+config BSP_BUILD_FAMILY
+	string "Spreadtrum BSP build family"
+	depends on BSP_BUILD_ANDROID_OS
+	help
+	  Spreadtrum BSP build family
+
+config BSP_BUILD_VARIANT
+	string "Spreadtrum BSP build variant"
+	depends on ARCH_SPRD
+	help
+	  Spreatrum BSP build variant
+
+config BSP_BOARD_ARCH
+	string "Speatrum BSP board arch name"
+	depends on ARCH_SPRD
+	help
+	 Spreatrum BSP board arch name
+
+config BSP_BOARD_CAMERA_MODULE_CPP_VERSION
+	string "Spreadtrum BSP board camera module CPP version"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board camera module CPP version
+
+config BSP_BOARD_CAMERA_MODULE_CSI_VERSION
+	string "Spreadtrum BSP board camera module CSI version"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board camera module CSI version
+
+config BSP_BOARD_CAMERA_MODULE_DVFS
+	string "Spreadtrum BSP board camera module DVFS board"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board camera module DVFS board
+
+config BSP_BOARD_CAMERA_MODULE_ISP_ADAPT_VERSION
+	string "Spreadtrum BSP board camera module ISP ADAPT version"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board camera module ISP ADAPT version
+
+config BSP_BOARD_CAMERA_MODULE_ISP_VERSION
+	string "Spreadtrum BSP board camera module ISP version"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board camera module ISP version
+
+config BSP_BOARD_CAMERA_MODULE_VDSP_DEVICE
+	string "Spreatrum BSP board camera module VDSP name"
+	depends on ARCH_SPRD
+	help
+	  Spreatrum BSP board camera module VDSP name
+
+config BSP_BOARD_NAME
+	string "Spreatrum BSP board name"
+	depends on ARCH_SPRD
+	help
+	  Spreatrum BSP board name
+
+config BSP_BOARD_UNISOC_WCN_SOCKET
+	string "Spreadtrum BSP board UNISOC wireless connectivity socket name"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board UNISOC wireless connectivity socket name
+
+config BSP_BOARD_WLAN_DEVICE
+	string "Spreadtrum BSP board WLAN device name"
+	depends on ARCH_SPRD
+	help
+	  Spreadtrum BSP board WLAN device name
