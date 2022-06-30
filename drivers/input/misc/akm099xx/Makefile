@@ -1,0 +1,1 @@
+obj-$(CONFIG_INPUT_AKM09911) += akm09911.o

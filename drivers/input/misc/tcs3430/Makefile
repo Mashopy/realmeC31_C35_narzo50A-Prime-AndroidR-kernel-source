@@ -1,0 +1,1 @@
+obj-$(CONFIG_SENSORS_TCS3430) += tcs3430.o
