@@ -33,3 +33,4 @@ obj-$(CONFIG_INPUT_KEYCOMBO)	+= keycombo.o
 obj-$(CONFIG_RMI4_CORE)		+= rmi4/
 obj-$(CONFIG_LCM_BIAS_VOLTAGE_ON)		+= lcd_bias/
 obj-y += fingerprint/
+obj-y += gpio_test/
